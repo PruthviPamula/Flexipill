@@ -1,0 +1,26 @@
+Steps to run code
+How to Run the Tests
+Prerequisites
+Ensure you have the following installed:
+Java Development Kit (JDK): Install the JDK from oracle.com or use an open-source alternative like OpenJDK.
+Maven: Apache Maven should be installed. You can download it from maven.apache.org.
+Setting Up the Environment
+Clone the Repository:
+bash
+git clone <repository_url>
+cd <repository_name>
+Ensure Maven is Properly Configured: Verify Maven is installed and properly configured by running:
+bash
+mvn -version
+                                                Running the Tests
+Run All Tests: To run all tests in the project, use:
+bash
+mvn test
+Run Tests in a Specific Class: To run tests in a specific test class, use:
+bash
+mvn -Dtest=ClassName test
+Replace ClassName with the name of the test class you want to run.
+Run a Specific Test Method: To run a specific test method within a test class, use:
+bash
+mvn -Dtest=ClassName#methodName test
+Replace ClassName with the test class name and methodName with the specific test method.
